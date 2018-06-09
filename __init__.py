@@ -82,7 +82,7 @@ class LogSkill(MycroftSkill):
 
         # write to log
         f = open("/home/matthew/Desktop/mycroft.log", "w+")
-        z = text2int(message)
+        z = self.text2int(message)
         f.write(str(z))
         f.close()
 
