@@ -20,7 +20,7 @@ class LogSkill(MycroftSkill):
 
     # The constructor of the skill, which calls MycroftSkill's constructor
     def __init__(self):
-        super(TemplateSkill, self).__init__(name="LogSkill")
+        super(LogSkill, self).__init__(name="LogSkill")
         
         # Initialize working variables used within the skill.
         self.count = 0
