@@ -44,7 +44,7 @@ class LogSkill(MycroftSkill):
         self.speak_dialog("hello.world")
 
         # write to log
-        f = open("home/matthew/Desktop/mycroft.log", "w+")
+        f = open("/home/matthew/Desktop/mycroft.log", "w+")
         f.write("Howdy")
         f.close()
 
