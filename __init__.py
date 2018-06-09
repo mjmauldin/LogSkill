@@ -37,7 +37,7 @@ class LogSkill(MycroftSkill):
     #   'Howdy you great big world'
     #   'Greetings planet earth'
     @intent_handler(IntentBuilder("").require("Hello").require("World"))
-    def handle_hello_world_intent(self, message):
+    def handle_log_intent(self, message):
         # In this case, respond by simply speaking a canned response.
         # Mycroft will randomly speak one of the lines from the file
         #    dialogs/en-us/hello.world.dialog
